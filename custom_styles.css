@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap')
+
+._dash-loading-callback {
+    font-family: sans-serif;
+    padding-top: 50px;
+    color: rgb(90, 90, 90);
+
+    -webkit-animation: fadein 0.5s ease-in 7s forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 0.5s; /* Firefox < 16 */
+    -ms-animation: fadein 0.5s; /* Internet Explorer */
+    -o-animation: fadein 0.5s; /* Opera < 12.1 */
+    animation: fadein 0.5s ease-in 7s forwards;
+
+    /* The banner */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    cursor: progress;
+}
+
+
+#root {
+	background-color: #272a31;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-family: "Open Sans", sans-serif;
+	min-height: 100vh;
+	max-width: 100% !important;
+}
+
+#session-id {
+	display: none;
+}
+
+/* app container 
+---------------------*/
+#app-container {
+	height: 
+}
+
+/* graph
+---------------------*/
+#graph {
+	height: 20px;
+	width: 100px;
+	color: blue;
+}
+
+/* image
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#image {
+    background-color: #272a31;
+}
+
+#interactive-image {
+    max-width: 100%
+}
+
+/*showline: False*/
+.yzl.zl.crisp {
+    stroke: darkgray !important;
+}
+
+.xzl.zl.crisp {
+    stroke: darkgray !important;
+}
+
+@media (min-width: 1311px) {
+    #div-interactive-image, #interactive-image {
+        height: 45rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #div-interactive-image, #interactive-image {
+        height: 30rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #div-interactive-image, #interactive-image {
+        height: 20rem;
+    }
+}
+
+/* upload button 
+---------------------*/
+#upload {
+	height: 20px;
+	width: 100px;
+	color: green;
+}
+
+#div-storage {
+    display: none;
+}
+
+/* shift 
+---------------------*/
+
+#shift {
+	height: 20px;
+	width: 100px;
+	color: red;
+}
+
+
+/* graph 
+---------------------*/
+
+#graph {
+	width: 500px;
+	height: 300px;
+	color: pink;
+}
+
+
